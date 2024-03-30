@@ -38,4 +38,3 @@ with open("MergedData.csv", 'w', encoding='utf8', newline='') as f:
     csvwriter.writerows(array)
 
 mergedData = pd.read_csv('MergedData.csv')
-print('Data of brightest_star_scraper.py and dwarf_star_scraper.py merged successfully!')
